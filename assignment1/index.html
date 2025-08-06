@@ -12,40 +12,50 @@
 
 </head>
 <body>
-<div class="Introduction">
+<nav class="side-nav">
+    <ul>
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#information-design">Information Design</a></li>
+        <li><a href="#mapping">Mapping</a></li>
+        <li><a href="#characterisation">Characterisation</a></li>
+        <li><a href="#feedback">Feedback</a></li>
+        <li><a href="#conclusion">Conclusion</a></li>
+    </ul>
+</nav>
+<div id="introduction" class="introduction">
     <h1>Introduction</h1>
     <p>This project presents a comparative analysis of two distinct web interfaces: Orb.Farm, an interactive ecosystem simulator, and Holdspace, a minimalist breathing experience. By examining each interface through the lens of four key interaction design principles—information design, mapping, characterisation, and feedback—this analysis explores how their contrasting approaches serve different user goals and experiences.</p>
 </div>
 
-<div class="Information design">
+<div id="information-design" class="information-design">
     <h1>Information design</h1>
     <p>Orb.Farm introduces itself with a pop-up that explains the core concept: simulating an ecosystem. While this offers some context, the instructions for how to interact with the system are vague. It’s not immediately clear how the user should engage with the interface — for example, clicking a control icon does not produce an immediate visible result, and only after trial and error does the user realize that they must also click and hold within the ecosystem window to insert elements. The control panel in the top-right corner is functional and contains a range of options like water, sand, and bacteria, alongside a clock that tracks CO₂ and O₂ levels. The overall design evokes a retro 2000s aesthetic, with pixelated illustrations and old-school UI popups, which contributes to its unique personality but adds to the initial confusion.</p>
     <p>In contrast, Holdspace takes a minimalist approach. The interface presents only essential information: a black screen, three lines of text, and a progress bar. One of the lines gives a clear and actionable instruction — “press and hold the space bar” — which instantly guides the user. There are no distractions, dropdowns, or hidden menus. This simplicity enhances accessibility and ensures that the purpose is understood almost instantly. The progress bar gives a visual sense of duration, and the message at the end (“thank you for listening”) confirms the completion of the experience.</p>
     <p>Comparatively, Holdspace succeeds more clearly in delivering intuitive information design through minimalism and direct instruction. Orb.Farm’s information is richer and layered, but it assumes a level of exploration and patience that might not be suitable for all users.</p>
 </div>
 
-<div class="Mapping">
+<div id="mapping" class="mapping">
         <h1>Mapping</h1>  
     <p>In Orb.Farm, mapping between user intention and outcome is initially weak. Users might expect that selecting an item from the control panel will immediately add it to the environment, but in reality, they must also click and hold in the environment space. This interaction is not hinted at visually or through prompts. While eventually intuitive, it creates a gap between user expectation and interface behavior — a classic mapping issue in interaction design.</p>  
     <p>Holdspace, however, demonstrates near-perfect mapping. The primary interaction — pressing and holding the spacebar — immediately triggers sound and animation. Releasing the spacebar immediately resets the screen. This one-to-one correlation is easy to grasp and creates a seamless interactive loop. The user learns quickly through cause and effect.</p>
     <p>Here, Holdspace’s mapping is more effective, leveraging minimalism to its advantage by making each user action immediately meaningful. Orb.Farm’s mapping suffers slightly due to its complex simulation nature and less transparent interaction logic.</p>
 </div>
 
-<div class="Characterisation">
+<div id="characterisation" class="characterisation">
     <h1>Characterisation</h1>
     <p>Orb.Farm has a distinct personality. Its visual language — pixelated art, window-style pop-ups, and vintage UI design — channels nostalgia for early digital interfaces. This character makes the site feel playful and educational, akin to a biology-themed sandbox game. The simulation of ecological balance gives it a “serious play” feel — while it’s fun to interact with, there’s an implicit message about environmental complexity and care. The interface doesn’t guide you too closely, instead inviting discovery through experimentation, which suits its theme.</p>
     <p>Holdspace, on the other hand, embodies calm. Everything from the clean black-and-white palette to the gentle ambient soundtrack is designed to relax the user. There is no excess. The animation — a floating sphere that pulses and grows — mimics deep breathing. The tone is meditative, like a mindfulness app or a digital moment of pause. This is reinforced by the lack of control options, buttons, or text clutter — the design intentionally reduces user agency to create a passive, calming experience.</p>
     <p>The contrast here is stark but effective: Orb.Farm uses characterisation to simulate curiosity and learning, while Holdspace uses it to promote peace and stillness. Each interface’s tone suits its purpose and audience.</p>
 </div>
 
-<div class="Feedback">
+<div id="feedback" class="feedback">
     <h1>Feedback</h1>
     <p>Orb.Farm provides subtle but layered feedback throughout the interaction. When selecting elements from the control panel (e.g., sand, grass, fish), each button gives a slight visual animation — a pressed-state effect that mimics the feel of a physical button, helping users confirm their selection. After selecting element, clicking and holding in the ecosystem screen make the element visibly appears in real time, reinforcing that the interaction was successful. Additionally, long-term feedback emerges through the simulation itself: the slow rise or fall of CO₂ and O₂ levels is tracked via a gas composition meter, and the ecosystem visibly reacts — for example, creatures begin to die if balance isn’t maintained. The fast-forward button adds an optional acceleration to these changes, allowing the user to observe outcomes more quickly.</p>
     <p>Holdspace also makes thoughtful use of feedback, though in a more minimal and ambient way. When users first entering the site, it shows a loading message ("loading sounds") — a small but important moment of system feedback that sets expectations and prevents confusion. Once the audio is ready, the loading line transitions into a guiding message: “turn up the volume and press and hold the spacebar.” This smooth transformation not only communicates that the system is ready but also subtly leads the user into the interaction without breaking immersion. During the experience, pressing and holding the spacebar produces immediate audiovisual feedback: the screen turns white, ambient music plays, and the animation begins. Releasing the spacebar returns the site to its original black screen, instantly confirming that the interaction has ended.</p>
     <p>While Orb.Farm’s feedback is both subtle and long-term, encouraging careful observation, Holdspace excels in immediate, sensory feedback that gently guides the user. Each interface’s approach aligns with its broader goals — Orb.Farm aims to simulate complexity over time, while Holdspace invites presence and calm through direct, moment-to-moment interaction.</p>
 </div>   
 
-<div class="Conclusion">
+<div id="conclusion" class="conclusion">
     <h1>Conclusion</h1>
     <p>While Orb.Farm and Holdspace differ radically in function, tone, and complexity, both demonstrate thoughtful interaction design. Orb.Farm invites exploration through layered, gamified learning — though at the cost of initial usability. Holdspace, by contrast, prioritizes emotional clarity and simplicity, offering a brief but powerful interactive moment. In comparing the two, we see how interaction design is not one-size-fits-all, but deeply context-dependent. The former succeeds by modeling complex systems through subtle interaction, while the latter excels through focused, minimal feedback and intuitive mapping. Each offers valuable lessons for designers on how to shape digital experiences based on intention, context, and audience.</p>
 </div>  
