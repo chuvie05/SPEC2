@@ -57,11 +57,11 @@ p {
 }
 
 .side-nav ul li a {
-  font-family: "Anton", sans-serif;
+  font-family: "Outfit", sans-serif;
   text-decoration: none;
   color: #ffffff;
-  font-weight:300;
-  font-size: 1.33rem;
+  font-weight:600;
+  font-size: 1.05rem;
   transition: color 0.3s;
 }
 
