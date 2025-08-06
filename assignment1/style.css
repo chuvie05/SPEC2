@@ -2,7 +2,9 @@
     background-color: rgb(0, 0, 0);
 }
 body {
-  padding: 13%;
+  padding-left: 13%;
+  padding-right: 13%;
+
 
 }
 h1 {
